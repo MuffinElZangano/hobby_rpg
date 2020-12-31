@@ -8,7 +8,7 @@ _right = ord("D");
 inputMagnitude = 0;
 inputDirection = 0;
 
-spd = 1;
+spd = 3;
 moveX = 0;
 moveY = 0;
 image_speed = 0;

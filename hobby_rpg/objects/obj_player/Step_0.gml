@@ -1,5 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
+depth = -y;
+
 inputU = keyboard_check(_up) || keyboard_check(vk_up);
 inputL = keyboard_check(_left) || keyboard_check(vk_left);
 inputR = keyboard_check(_right) || keyboard_check(vk_right);
@@ -21,7 +23,7 @@ if(place_meeting(x+moveX,y,obj_solid)){
 if(place_meeting(x,y+moveY,obj_solid)){
 	repeat(abs(moveY)){
 		if(!place_meeting(x,y+sign(moveY),obj_solid)){
-			x += sign(moveY)} else{break;}
+			y += sign(moveY)} else{break;}
 		}
 		moveY = 0;
 	}
