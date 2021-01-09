@@ -2,7 +2,6 @@
   "resources": [
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},"order":1,},
     {"id":{"name":"tileset_grassA1","path":"tilesets/tileset_grassA1/tileset_grassA1.yy",},"order":0,},
-    {"id":{"name":"obj_gamepad","path":"objects/obj_gamepad/obj_gamepad.yy",},"order":4,},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"order":0,},
     {"id":{"name":"obj_solid","path":"objects/obj_solid/obj_solid.yy",},"order":1,},
     {"id":{"name":"tileset_vegetationA","path":"tilesets/tileset_vegetationA/tileset_vegetationA.yy",},"order":4,},
